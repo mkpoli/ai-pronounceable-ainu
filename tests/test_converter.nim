@@ -6,6 +6,7 @@ suite "convert module":
         check convert("sukus") == "sukush"
         check convert("siknu") == "shiknu"
         check convert("aske") == "ashke"
+        check convert("asir pa") == "ashir pa"
         check convert("niska") == "nishka"
         check convert("sírpeker") == "shírpeker"
 
