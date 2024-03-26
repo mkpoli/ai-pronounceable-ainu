@@ -36,3 +36,5 @@ func convert(s: string): string =
 
     # r n -> n n
     r = r.replace("r n", "n n")
+
+    r
