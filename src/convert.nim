@@ -31,4 +31,8 @@ func convert(s: string): string =
     r = r.replace("-", "")
     r = r.replace("=", "")
 
-    r
+    # r t -> t t
+    r = r.replace("r t", "t t")
+
+    # r n -> n n
+    r = r.replace("r n", "n n")

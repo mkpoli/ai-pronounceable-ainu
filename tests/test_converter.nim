@@ -28,3 +28,15 @@ suite "convert module":
 
     test "-,= -> ":
         check convert("ku=anu") == "kuanu"
+
+    test "r t -> t t":
+        check convert("or ta") == "ot ta"
+        check convert("kor cise") == "kot cise"
+
+    test "r n -> n n":
+        check convert("paykar nu") == "paikan nu"
+        check convert("kor rusuy") == "kon rusuy"
+
+    # TODO: Is nn -> n#n required? Is uwe -> ue required?
+    # TODO: Is r r -> n r, n s -> y s, n y -> y y required?
+    # TODO: Is C hV -> CV required?
