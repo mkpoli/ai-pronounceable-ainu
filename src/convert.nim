@@ -11,6 +11,7 @@ func convert(s: string): string =
     r = r.replace("es", "osh")
 
     r = r.replace("si", "shi")
+    r = r.replace("sí", "shí")
 
     # c -> ch
     r = r.replace("c", "ch")

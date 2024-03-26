@@ -7,6 +7,7 @@ suite "convert module":
         check convert("siknu") == "shiknu"
         check convert("aske") == "ashke"
         check convert("niska") == "nishka"
+        check convert("sírpeker") == "shírpeker"
 
     test "c -> ch":
         check convert("cupu") == "chupu"
